@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div>
+        <!--collection of input controls (text,textarea,checkbox,radio,number,telephone,month,date,email,submit) -->
+        <form action="contact.html" method="POST">
+            <label>
+                <h3>Name</h3>
+            </label>
+            <input required autofocus placeholder="Enter your Name"  type="text" name="name1" id="contactName" />
+            <br/>
+            <br/>
+            <label>
+                What browser do you prefer?
+            </label>
+            <br/>
+            <input type="radio" name="browserName" value="Chrome"> Chrome &nbsp; &nbsp;| &nbsp;
+            <input type="radio" name="browserName" value="IE"> IE
+            </br/>
+            <input type="checkbox" name="humanOrNot" value="Yes"/> you a human?
+            <br/>
+            <input placeholder="Enter your number" type="number"/>
+            <input required placeholder="Enter your email" type="email"/>
+            <input required type="date"/>
+            <input placeholder="search" type="search"/>
+            <br/>
+            <button type="submit">
+                submit
+            </button>
+
+        </form>
+    </div>
+</body>
+
+</html>
